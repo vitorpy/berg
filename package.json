@@ -1,0 +1,28 @@
+{
+  "name": "berg",
+  "displayName": "Berg Theme",
+  "description": "A color theme inspired by the Bloomberg terminal",
+  "version": "0.0.4",
+  "publisher": "teehausamberg",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Berg Theme",
+        "uiTheme": "vs-dark",
+        "path": "./Berg Theme-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jx22/berg"
+  },
+  "license": "MIT"
+}
